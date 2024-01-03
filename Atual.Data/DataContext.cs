@@ -36,7 +36,7 @@ namespace Atual.Data
         
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            string connString = "Server=localhost;Database=atualdb;User=root;Password=mlFodase1!";
+            string connString = "Server=localhost;Database=atualdb;User=XXXXX;Password=XXXXXXX";
             
             if (!options.IsConfigured)
             {
