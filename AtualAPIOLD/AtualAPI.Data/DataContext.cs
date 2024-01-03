@@ -42,7 +42,7 @@ namespace AtualAPI.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            string connString = "Server=localhost;Database=dbklango;User=userklango;Password=klangomlFodase1!";
+            string connString = "Server=localhost;Database=dbklango;User=XXXXXX;Password=XXXXXXXXXX!";
             if (!options.IsConfigured)
             {
                 options.UseMySql(connString, ServerVersion.AutoDetect(connString));
